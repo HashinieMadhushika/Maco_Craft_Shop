@@ -3,10 +3,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <p>test</p>
-    </div>
-  );
+    <title>Maco Craft - Home</title>
+  )
 }
 
 export default App;
