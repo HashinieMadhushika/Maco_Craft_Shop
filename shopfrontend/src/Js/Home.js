@@ -89,7 +89,7 @@ const Home = () => {
       <main className="content">
         <h1>Welcome to Maco Craft!</h1>
         <div class="animated-text-section">
-          <h2 class="animated-text">Crafting joy, one stitch at a time</h2>
+          <h2>Crafting joy, one stitch at a time</h2>
         </div>
 
         <div className="product-grid">
