@@ -14,6 +14,14 @@ import toy2 from "../Images/Pooh.jpg";
 import bag2 from "../Images/Bag 10.jpg";
 import acc2 from "../Images/Earings-01.jpg";
 import bouquet2 from "../Images/Bouq-02.jpg";
+import profileIcon from "../Images/Profile_Icon2.png";
+import openingIcon from "../Images/Shop_Icon.png";
+import callIcon from "../Images/Call_Us_Icon.png";
+import paymentIcon from "../Images/Payment_Icons.png";
+import deliveryIcon from "../Images/Delivery_Service_Icon.png"
+import recent1 from "../Images/Recent bulk order_01.jpg";
+import recent2 from "../Images/Recent Bulk Order_02.jpg";
+import recent from "../Images/Recent bulk order_01.jpg";
 
 
 const Home = () => {
@@ -46,6 +54,15 @@ const Home = () => {
        <header className="header">
         <div className="logo">
           <img src={logo} alt="Maco Craft Logo" />
+        </div>
+        
+        <div className="profile">
+        <Link to="/profile">
+        <img src={profileIcon}
+        alt="Profile Icon"
+        className="profile-icon"
+        />
+        </Link>
         </div>
         <nav className="nav">
           <ul>
@@ -152,6 +169,33 @@ const Home = () => {
           </div>
         </div>
       </main>
+
+
+      {/*Call us, Payment methods, Delivery Bar*/}
+      <div className="info-bar-container">
+      <div className="info-bar">
+        <div className="info-item">
+          <img src={openingIcon} alt="Opening Hours" />
+          <h3>OPENING HOURS</h3>
+          <p>Our Shop is 24hrs Open on Weekdays. Closed on Holidays.</p>
+        </div>
+        <div className="info-item">
+          <img src={paymentIcon} alt="Payment Methods" />
+          <h3>PAYMENT METHODS</h3>
+          <p>We accept only online transfers or bank deposits. Don’t accept COD.</p>
+        </div>
+        <div className="info-item">
+          <img src={callIcon} alt="Call Us" />
+          <h3>CALL US</h3>
+          <p>+94703217468 Contact us. Call and WhatsApp only.</p>
+        </div>
+        <div className="info-item">
+          <img src={deliveryIcon} alt="Delivery Service" />
+          <h3>DELIVERY SERVICE</h3>
+          <p>We supply all-island delivery service. Within 2-3 working days.</p>
+        </div>
+      </div>
+      </div>
     </div>
   );
 };

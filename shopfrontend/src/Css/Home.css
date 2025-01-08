@@ -21,6 +21,21 @@ body {
   max-height: 70px;
 }
 
+
+/* Profile Icon */
+.header .profile {
+  margin-left: -900px;
+}
+
+.header .profile-icon {
+  max-height: 50px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+
+.header .profile-icon:hover {
+  transform: scale(1.1);
+}
 .nav ul {
   display: flex;
   list-style: none;
@@ -153,6 +168,151 @@ body {
   margin-bottom: 40px;
   display: block;
 }
+
+
+/*Information Bar*/
+/* Info Bar Styling */
+.info-bar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #5a2d82; /* Light purple background */
+  padding: 20px 10px;
+  margin-top: 10px;
+  
+}
+
+.info-item {
+  text-align: center;
+  flex: 1;
+  margin: 0 20px;
+  /* Info Bar Container with Dark Purple Background */
+.info-bar-container {
+  background-color: #5a2d82; /* Dark purple background */
+  padding: 10px 10px;
+  width: 100px;
+}
+
+}
+
+.info-item img {
+  max-height: 70px;
+  margin-bottom: 3px;
+}
+
+.info-item h3 {
+  font-size: 1.2rem;
+  color:white; /* Black title text */
+  margin-bottom: 3px;
+}
+
+.info-item p {
+  font-size: 0.9rem;
+  color: #e3e3e3; /* Darker gray text */
+  line-height: 1.4;
+}
+
+/* Info Bar Container with Dark Purple Background */
+.info-bar-container {
+  background-color: #5a2d82; /* Dark purple background */
+  padding: 0px 10px;
+}
+/* Optional: Add spacing or responsiveness */
+@media (max-width: 768px) {
+  .info-bar {
+    flex-direction: column;
+    align-items: flex-start;
+    text-align: left;
+  }
+
+  .info-item {
+    margin: 10px 0;
+  }
+
+  /* Container for Recent Bulk Order */
+.recent-bulk-order {
+  margin-top: 20px;
+}
+
+/* Header section with black background */
+.recent-bulk-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: white;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* Header text styling */
+.recent-bulk-header h2 {
+  font-size: 1.8rem;
+  color: white; /* White text */
+  margin: 0; /* Remove extra margin */
+}
+
+/* Show All button styling */
+.show-all-btn {
+  background-color: #f7d1e2; /* Light pink */
+  color: black; /* Button text color */
+  font-size: 0.9rem;
+  font-weight: bold;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effect for Show All button */
+.show-all-btn:hover {
+  background-color: #da96d3; /* Darker pink on hover */
+}
+
+/* Bulk order content layout */
+.bulk-order-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 20px;
+}
+
+/* Bulk images styling */
+.bulk-images img {
+  max-width: 30%;
+  margin: 5px;
+  border-radius: 10px;
+}
+
+/* Bulk order description styling */
+.bulk-order-description {
+  max-width: 60%;
+  margin-left: 20px;
+  background-color: #f7d1e2; /* Light pink */
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 10px;
+}
+
+/* Contact Us button */
+.contact-btn {
+  background-color: black;
+  color: white;
+  font-size: 1rem;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-btn:hover {
+  background-color: #333;
+}
+
+
+
+}
+
 
 
 
