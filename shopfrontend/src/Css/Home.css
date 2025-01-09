@@ -194,6 +194,161 @@ body {
 }
 
 }
+ /* Bulk Order Description */
+ .recent-bulk-order {
+  background-color: #000000; /* Light Pink */
+  color: #FFFFFF; /* White */
+  text-align: center;
+  padding: 5rem 10;
+  font-size: 1.4rem;
+  align-items: center;
+  display: flex;
+  margin-top: 60px;
+  text-align: center; /* Center the text within the header */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+/*Show All Button */
+.show-all-button {
+  background-color: #F08080; /* Light Coral */
+  color: #FFFFFF;
+  border: none;
+  padding: 0.8rem 5rem;
+  border-radius: 8px;
+  cursor: pointer;
+  margin-left: 80rem;
+  font-size: 1.5rem;
+}
+
+.show-all-button:hover {
+  background-color: #FF6347; /* Dark Orange on hover */
+}
+
+/* Bulk Orders Section */
+.bulk-orders-section {
+  background-color: #FFFFFF; /* White background */
+  padding: 2rem ;
+  margin-top: 0rem; /* Add some spacing */
+  display: flex;
+  justify-content: center; /* Space between images and text */
+}
+
+.bulk-orders-images {
+  display: flex;
+  flex-wrap: wrap; /* Allow images to wrap to the next line */
+  max-width: 100%;
+  gap: 30px;
+  right: 100px;
+}
+
+.bulk-orders-images img {
+  max-width: 300px; /* Adjust as needed */
+  margin-bottom: 1rem; /* Add spacing between images */
+}
+
+.bulk-orders-description {
+  max-width: 400px; /* Adjust as needed */
+  margin-left: 2rem; /* Add spacing from images */
+}
+
+.bulk-orders-description p {
+  margin-bottom: 1rem;
+  font-size: 1.2rem;
+  font-weight:bold;
+}
+
+.contact-us-button {
+  display: inline-block;
+  background-color: #F08080; /* Light Coral */
+  color: #FFFFFF;
+  padding: 1rem 4rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none; /* Remove underline */
+  margin-top: 1rem;
+  margin-left: 100px;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+.description-box {
+  background-color: rgba(218, 136, 210, 0.8); /* Light pink with low opacity */
+  padding: 2rem;
+  border-radius: 5px;
+  position: relative; /* For positioning the image */
+  overflow: hidden; /* Hide overflowing image */
+  left: 100px;
+  gap: 10px;
+}
+.description-box p {
+  color: #000000; /* Change the color of the paragraph text */
+}
+
+.description-box h1 {
+  font-size: 1.8rem;
+  color: #000000; /* Change the color of the paragraph text */
+}
+
+.description-box::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 100%;
+  height: 100%;
+  background-image: url('../Images/Watermark_01.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.3; /* Set image opacity */
+  /*filter: blur(5px); */ /* Add blur effect */
+}
+/*End of the Recent Bulk Order Section */
+
+/*Begining Of the Restocked Materials Section */
+.restock-container {
+  background-color: #a46ec4; /* Light Pink background */
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.restock-header {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff; /* Set text color to white */
+  background-color: #000; /* Set background color to black */
+  padding: 1.5rem 66.2rem; /* Add padding for better visibility */
+  border-radius: 5px; /* Add rounded corners */
+  text-align: center; /* Center the text within the header */
+  white-space: nowrap; /* Prevent text from wrapping */
+  margin-top: 0px;
+} 
+
+.yarn-type {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-right: 120rem;
+}
+
+.yarn-type a {
+  margin-right: 0.5rem;
+  font-size: 5rem;
+}
+
+.yarn-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr); /* Four columns */
+  grid-gap: 0.4rem; /* Space between images */
+  margin-left:3rem;
+}
+
+.yarn-grid img {
+  width: 90%; 
+  height: auto;
+}
+{/*End of the Restocked Materials Section */}
 
 .info-item img {
   max-height: 70px;
@@ -228,89 +383,6 @@ body {
   .info-item {
     margin: 10px 0;
   }
-
-  /* Container for Recent Bulk Order */
-.recent-bulk-order {
-  margin-top: 20px;
-}
-
-/* Header section with black background */
-.recent-bulk-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: white;
-  padding: 10px 20px;
-  border-radius: 10px;
-}
-
-/* Header text styling */
-.recent-bulk-header h2 {
-  font-size: 1.8rem;
-  color: white; /* White text */
-  margin: 0; /* Remove extra margin */
-}
-
-/* Show All button styling */
-.show-all-btn {
-  background-color: #f7d1e2; /* Light pink */
-  color: black; /* Button text color */
-  font-size: 0.9rem;
-  font-weight: bold;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-/* Hover effect for Show All button */
-.show-all-btn:hover {
-  background-color: #da96d3; /* Darker pink on hover */
-}
-
-/* Bulk order content layout */
-.bulk-order-content {
-  display: flex;
-  flex-wrap: wrap;
-  margin-top: 20px;
-}
-
-/* Bulk images styling */
-.bulk-images img {
-  max-width: 30%;
-  margin: 5px;
-  border-radius: 10px;
-}
-
-/* Bulk order description styling */
-.bulk-order-description {
-  max-width: 60%;
-  margin-left: 20px;
-  background-color: #f7d1e2; /* Light pink */
-  padding: 20px;
-  border-radius: 10px;
-  font-size: 10px;
-}
-
-/* Contact Us button */
-.contact-btn {
-  background-color: black;
-  color: white;
-  font-size: 1rem;
-  padding: 10px 20px;
-  border: none;
-  border-radius: 20px;
-  cursor: pointer;
-  transition: background-color 0.3s ease;
-}
-
-.contact-btn:hover {
-  background-color: #333;
-}
-
-
-
 }
 
 

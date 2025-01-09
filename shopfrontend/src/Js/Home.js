@@ -15,18 +15,28 @@ import bag2 from "../Images/Bag 10.jpg";
 import acc2 from "../Images/Earings-01.jpg";
 import bouquet2 from "../Images/Bouq-02.jpg";
 import profileIcon from "../Images/Profile_Icon2.png";
-import openingIcon from "../Images/Shop_Icon.png";
-import callIcon from "../Images/Call_Us_Icon.png";
-import paymentIcon from "../Images/Payment_Icons.png";
-import deliveryIcon from "../Images/Delivery_Service_Icon.png"
-import recent1 from "../Images/Recent bulk order_01.jpg";
+import openingIcon from "../Images/shopIcon1.png";
+import callIcon from "../Images/callIcon1.png";
+import paymentIcon from "../Images/cardIcon1.png";
+import deliveryIcon from "../Images/deliveryIcon1.png"
 import recent2 from "../Images/Recent Bulk Order_02.jpg";
-import recent from "../Images/Recent bulk order_01.jpg";
+import bulk1 from "../Images/Bulk-2.jpg";
+import bulk2 from "../Images/Bulk-3.jpg";
+import bulk3 from "../Images/Bulk-5.jpg";
+import yarn1 from "../Images/Shaded  Yarn-08.jpg";
+import yarn2 from "../Images/Shaded Yarn-02.jpg";
+import yarn3 from "../Images/Shaded Yarn-03.jpg";
+import yarn4 from "../Images/Shaded Yarn-04.jpg";
+import yarn5 from "../Images/Shaded Yarn-05.jpg";
+import yarn6 from "../Images/Shaded Yarn-06.jpg";
+import yarn7 from "../Images/Shaded Yarn-07.jpg";
+import yarn8 from "../Images/Shaded Yarn-11.jpg";
+
 
 
 const Home = () => {
 
-//Search Function
+ //Search Function
   const [searchInput, setSearchInput] = useState("");
   const handleSearch = () => {
     if (searchInput) {
@@ -46,7 +56,6 @@ const Home = () => {
   const handleLeave = () => {
     setHoveredImage('');
   };
-
 
   return (
     
@@ -91,7 +100,7 @@ const Home = () => {
       </header>
 
 
- {/* Search Bar */}
+      {/* Search Bar */}
       <div className="search-bar">
         <input
           type="text"
@@ -196,7 +205,48 @@ const Home = () => {
         </div>
       </div>
       </div>
+      {/* Bulk Order Description */}
+      <div className="recent-bulk-order">
+      <h1>RECENT BULK ORDERS</h1>
+      <button className="show-all-button" onClick >Show All</button>
     </div>
+
+    <div className="bulk-orders-section">
+        <div className="bulk-orders-images">
+          <img src={recent2} alt="Bulk 1" />
+          <img src={bulk1} alt="Bulk 2" />
+          <img src={bulk2} alt="Bulk 3" />
+          <img src={bulk3} alt="Bulk 4" />
+        </div>
+        <div className="bulk-orders-description">
+        <div className="description-box">
+          <h1>We Accept Bulk Orders</h1>
+          <p>We're thrilled to offer bulk order services! To guarantee timely delivery and maintain our commitment to exceptional quality, kindly place your order a minimum of 7-8 days in advance. Our dedicated team will work diligently to fulfill your order promptly and efficiently. By placing your order early, you'll ensure that we have ample time to source the best materials and allocate the necessary resources to meet your specific needs. We prioritize customer satisfaction and strive to exceed your expectations with every order.</p>
+          </div> 
+          <a className="contact-us-button" href="/contact-us" onClick >Contact Us</a>
+        </div>
+      </div>
+
+      {/*Restocked Materials Section */}
+      <div className="restock-container">
+      <a className="restock-header">RESTOCKED MATERIALS</a>
+      <div className="yarn-type">
+        <h1>Milk Cotton Yarn</h1>
+        <span>→</span> 
+      </div>
+      <div className="yarn-grid">
+        <img src={yarn1} alt="Yarn 1" />
+        <img src={yarn2} alt="Yarn 2" />
+        <img src={yarn3} alt="Yarn 3" />
+        <img src={yarn4} alt="Yarn 4" />
+        <img src={yarn5} alt="Yarn 5" />
+        <img src={yarn6} alt="Yarn 6" />
+        <img src={yarn7} alt="Yarn 7" />
+        <img src={yarn8} alt="Yarn 8" />
+      </div>
+    </div>
+
+    </div>   
   );
 };
 
