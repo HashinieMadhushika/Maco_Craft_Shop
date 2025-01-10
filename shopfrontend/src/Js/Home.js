@@ -33,6 +33,7 @@ import yarn7 from "../Images/Shaded Yarn-07.jpg";
 import yarn8 from "../Images/Shaded Yarn-11.jpg";
 import package1 from "../Images/Pack-02.jpg";
 import package2 from "../Images/Pack-05.jpg";
+import Footer from './Footer';
 
 
 const Home = () => {
@@ -295,7 +296,7 @@ const Home = () => {
 
 
 
-
+    <Footer/>
     </div>   
   );
 };
