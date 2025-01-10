@@ -1,20 +1,17 @@
 import React, { useState } from "react";
 import "../Css/Home.css"; // Import Home.css for styling
-import logo from "../Images/Maco_Craft_Logo-01.png"; // Import logo
 import frock1 from "../Images/Frock-02.jpg"; // Import product images
 import croptop1 from "../Images/Croptop-05.jpg";
 import toy1 from "../Images/Bunny.jpg";
 import bag1 from "../Images/Bag 11.jpg";
 import acc1 from "../Images/Hair Band-01.jpg";
 import bouquet1 from "../Images/Bouq-04.jpg";
-import { Link } from "react-router-dom";
 import frock2 from "../Images/Frock-03.jpg";
 import croptop2 from "../Images/Croptop-01.jpg";
 import toy2 from "../Images/Pooh.jpg";
 import bag2 from "../Images/Bag 10.jpg";
 import acc2 from "../Images/Earings-01.jpg";
 import bouquet2 from "../Images/Bouq-02.jpg";
-import profileIcon from "../Images/Profile_Icon2.png";
 import openingIcon from "../Images/shopIcon1.png";
 import callIcon from "../Images/callIcon1.png";
 import paymentIcon from "../Images/cardIcon1.png";
@@ -34,6 +31,7 @@ import yarn8 from "../Images/Shaded Yarn-11.jpg";
 import package1 from "../Images/Pack-02.jpg";
 import package2 from "../Images/Pack-05.jpg";
 import Footer from './Footer';
+import Header from "./Header";
 
 
 const Home = () => {
@@ -60,47 +58,9 @@ const Home = () => {
   };
 
   return (
-    
+   
     <div>
-       <header className="header">
-        <div className="logo">
-          <img src={logo} alt="Maco Craft Logo" />
-        </div>
-        
-        <div className="profile">
-        <Link to="/profile">
-        <img src={profileIcon}
-        alt="Profile Icon"
-        className="profile-icon"
-        />
-        </Link>
-        </div>
-        <nav className="nav">
-          <ul>
-            <li>
-              <Link to="/" className="nav-link">
-                Home
-              </Link>
-            </li>
-            <li>
-              <Link to="/about" className="nav-link">
-                About Us
-              </Link>
-            </li>
-            <li>
-              <Link to="/shop" className="nav-link">
-                Shop Now
-              </Link>
-            </li>
-            <li>
-              <Link to="/contact" className="nav-link">
-                Contact Us
-              </Link>
-            </li>
-          </ul>
-        </nav>
-      </header>
-
+       <Header/>
 
       {/* Search Bar */}
       <div className="search-bar">

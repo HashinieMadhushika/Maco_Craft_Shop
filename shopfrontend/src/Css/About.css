@@ -1,0 +1,43 @@
+.about-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem;
+    align-items: center; 
+    flex-direction: flex-start;
+  }
+  
+  .about-me-image {
+    margin-left: 100px;
+    width: 30%; /* Adjust width as needed */
+   
+  }
+  
+  .about-me-image img {
+    width: 80%; 
+    height: auto;
+    border-radius: 50px;
+  }
+  
+  .about-me-content {
+    align-items: center;
+    flex: 1; /* Allow content to take up remaining space */
+    margin-left: 1rem; /* Add some spacing between image and text */
+  }
+  
+  .about-me-box {
+    margin-left: 1000px;
+    max-width: 10%;
+    align-items: center;
+    background-color: #bd58a2;
+    color: #FFFFFF;
+    padding: 0.7rem 4rem;
+    border-radius: 5px;
+    margin-bottom: 0.5rem;
+    transition: background-color 0.3s ease;
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .about-me-box:hover {
+    background-color: #DDA0DD;
+  }
