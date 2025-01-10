@@ -31,7 +31,8 @@ import yarn5 from "../Images/Shaded Yarn-05.jpg";
 import yarn6 from "../Images/Shaded Yarn-06.jpg";
 import yarn7 from "../Images/Shaded Yarn-07.jpg";
 import yarn8 from "../Images/Shaded Yarn-11.jpg";
-
+import package1 from "../Images/Pack-02.jpg";
+import package2 from "../Images/Pack-05.jpg";
 
 
 const Home = () => {
@@ -179,7 +180,6 @@ const Home = () => {
         </div>
       </main>
 
-
       {/*Call us, Payment methods, Delivery Bar*/}
       <div className="info-bar-container">
       <div className="info-bar">
@@ -229,10 +229,10 @@ const Home = () => {
 
       {/*Restocked Materials Section */}
       <div className="restock-container">
-      <a className="restock-header">RESTOCKED MATERIALS</a>
+      <h1 className="restock-header">RESTOCKED MATERIALS</h1>
       <div className="yarn-type">
         <h1>Milk Cotton Yarn</h1>
-        <span>→</span> 
+        <span> → </span> 
       </div>
       <div className="yarn-grid">
         <img src={yarn1} alt="Yarn 1" />
@@ -245,6 +245,56 @@ const Home = () => {
         <img src={yarn8} alt="Yarn 8" />
       </div>
     </div>
+
+        {/*Package Details Section*/}
+      <div className="gift-boxes-container">
+      <h2 className="gift-boxes-header">GIFT BOXES</h2>
+
+      <div className="package-row">
+        <div className="package-card">
+        <div className="package-card-image">
+            <img src={package1} alt="Package 1" /> 
+          </div>
+
+          <div className="package-card-content">
+          <h3>PACKAGE-01</h3>
+          <h2>Price: Rs. 4000</h2>
+          <ul>
+            <li>Include - Baby Rabbit, small flower pot, bear face</li>
+            <li>We supply high quality products. You can customize gift packs as you wish.</li>
+            <li>Price will vary when I add your customize requirements.</li>
+          </ul>
+          <a href="/Shop" className="shop-now-button" onClick >SHOP NOW</a>
+        </div>
+        </div>
+
+        <div className="package-card">
+        <div className="package-card-image">
+            <img src={package2} alt="Package 2" /> 
+          </div>
+
+          <div className="package-card-content">
+          <h3>PACKAGE-02</h3>
+          <h2>Price: Rs. 5000</h2>
+          <ul>
+            <li>Include - Baby Rabbit, small flowers, 3 baby kitties.</li>
+            <li>We supply high quality products. You can customize gift packs as you wish.</li>
+            <li>Price will vary when I add your customize requirements.</li>
+          </ul>
+          <a href="/Shop" className="shop-now-button" onClick >SHOP NOW</a>
+        </div>
+        </div>
+      </div>
+
+      <div className="package-row"> 
+        {/* Add more package cards here if needed */}
+      </div>
+
+      <a href="/Shop" className="more-packages-button" onClick >MORE PACKAGES</a>
+    </div>
+
+
+
 
     </div>   
   );

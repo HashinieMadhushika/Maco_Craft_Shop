@@ -198,12 +198,13 @@ body {
  .recent-bulk-order {
   background-color: #000000; /* Light Pink */
   color: #FFFFFF; /* White */
-  text-align: center;
-  padding: 5rem 10;
+  padding: 15rem 10;
   font-size: 1.4rem;
   align-items: center;
   display: flex;
   margin-top: 60px;
+  width: 100%;
+  justify-content: center;
   text-align: center; /* Center the text within the header */
   white-space: nowrap; /* Prevent text from wrapping */
 }
@@ -303,6 +304,116 @@ body {
 }
 /*End of the Recent Bulk Order Section */
 
+
+ /* Begining Package Details Section */
+ .gift-boxes-container {
+  background-color: #fff; /* Light Pink background */
+  padding: 0rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 0rem;
+}
+
+.gift-boxes-header {
+  font-size: 3rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  color: #fff;
+  background-color: #000;
+  padding: 1.5rem 42.5rem; 
+  /* padding: 0.5rem 1rem; */
+  border-radius: 5px;
+  text-align: center;
+  width: 40%; /* Make the header span the full width */
+}
+
+.package-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Make each row span the full width */
+  margin-bottom: 2rem; /* Add spacing between rows */
+}
+
+.package-card {
+  display: flex;
+  align-items: center;
+  background-color: #ebcef0;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(109, 33, 102, 0.1);
+  width: 45%; /* Adjust width as needed */
+  position: relative;
+  justify-content: center;
+}
+
+.package-card-image {
+  margin-right: 2rem; /* Add margin to separate image from text */
+}
+
+.package-card-image img {
+  width: 400px; /* Adjust image size as needed */
+  height: auto;
+}
+.package-card-content {
+  flex-grow: 1; /* Allow content to take up remaining space */
+}
+
+.package-card-content h3 {
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  color: #9932CC;
+}
+
+.package-card-content ul {
+  list-style: disc;
+  padding: 0;
+  margin: 0;
+}
+
+.package-card-content ul li {
+  margin-bottom: 0.5rem;
+  font-size: 1.5rem;
+  color: #663399;
+}
+
+.shop-now-button {
+  background-color: #F08080; 
+  color: #FFFFFF;
+  border: none;
+  margin-top: 1rem;
+  padding: 1rem 2rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s ease;
+}
+
+.shop-now-button:hover {
+  background-color: #FF6347; 
+}
+
+.more-packages-button {
+  background-color: #F08080; 
+  color: #FFFFFF;
+  border: none;
+  padding: 1.5rem 7rem;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  margin-top: 0rem;
+  transition: background-color 0.3s ease;
+}
+
+.more-packages-button:hover {
+  background-color: #FF6347; 
+}
+/*End of the Package detail section */
+
+
+
 /*Begining Of the Restocked Materials Section */
 .restock-container {
   background-color: #a46ec4; /* Light Pink background */
@@ -318,7 +429,7 @@ body {
   margin-bottom: 1rem;
   color: #fff; /* Set text color to white */
   background-color: #000; /* Set background color to black */
-  padding: 1.5rem 66.2rem; /* Add padding for better visibility */
+  padding: 1.5rem 52.5rem; /* Add padding for better visibility */
   border-radius: 5px; /* Add rounded corners */
   text-align: center; /* Center the text within the header */
   white-space: nowrap; /* Prevent text from wrapping */
@@ -356,13 +467,13 @@ body {
 }
 
 .info-item h3 {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   color:white; /* Black title text */
   margin-bottom: 3px;
 }
 
 .info-item p {
-  font-size: 0.9rem;
+  font-size: 1.2rem;
   color: #e3e3e3; /* Darker gray text */
   line-height: 1.4;
 }
@@ -383,6 +494,8 @@ body {
   .info-item {
     margin: 10px 0;
   }
+
+ 
 }
 
 
