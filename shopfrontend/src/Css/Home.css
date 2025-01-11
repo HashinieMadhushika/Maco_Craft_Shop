@@ -169,7 +169,7 @@ body {
   text-decoration: none; /* Remove underline */
   margin-top: 1rem;
   margin-left: 100px;
-  font-size: 1rem;
+  font-size: 1.2rem;
   white-space: nowrap;
 }
 
@@ -291,6 +291,7 @@ body {
   text-decoration: none;
   display: inline-block;
   transition: background-color 0.3s ease;
+  font-size: 1.2rem;
 }
 
 .shop-now-button:hover {
@@ -298,6 +299,7 @@ body {
 }
 
 .more-packages-button {
+  font-size: 1.5rem;
   background-color: #F08080; 
   color: #FFFFFF;
   border: none;
