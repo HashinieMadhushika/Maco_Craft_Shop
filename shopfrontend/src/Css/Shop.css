@@ -1,0 +1,29 @@
+.hero-section {
+    background-color: #f0f0f0; /* Light gray background */
+    padding: 50px 0; /* Adjust padding as needed */
+    text-align: center;
+    height: 50%;
+  }
+  
+  .hero-image {
+    height: 100%; /* Adjust width as needed */
+    max-width: 500px; /* Set a maximum width for responsiveness */
+    margin: 0 auto; /* Center the image */
+    border-radius: 5px;
+  }
+  
+  .hero-text {
+    color: #333;
+    margin-top: 30px;
+  }
+  
+  .hero-button {
+    background-color: #800080; /* Dark purple color */
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 20px;
+  }
