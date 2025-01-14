@@ -21,7 +21,7 @@ import b1 from "../Images/Bag 10.jpg";
 import b2 from "../Images/Bag 11.jpg";
 import b3 from "../Images/Bag-01.jpg";
 import b4 from "../Images/Bag-02.jpg";
-import b5 from "../Images/Bouq-04.jpg";
+import b5 from "../Images/bag-04.jpg";
 import a1 from "../Images/Clips-01.jpg";
 import a2 from "../Images/Clips-02.jpg";
 import a3 from "../Images/Earings-01.jpg";
@@ -45,196 +45,165 @@ const ShopNow = () => {
       name: 'Long Party Frock',
       image: f1,
       price: '5000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
     },
     {
       name: 'Short Casual Frock',
       image: f2,
       price: '4500',
-      description: 'A whipped coffee drink made with instant coffee, sugar, and hot water.'
     },
     {
       name: 'Short Party Frock',
       image: f3,
       price: '5000',
-      description: 'A refreshing cold coffee drink made with chilled coffee and milk.'
     },
     {
       name: 'Short Casual Frock',
       image: f4,
       price: '4000',
-      description: 'A traditional South Indian coffee brewed using a filter.'
     },
     {
       name: 'Short Casual Frock',
       image: f5,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '4500',
     },
 
     /*Croptop Section */
     {
-      name: 'Short Casual Frock',
+      name: 'Party Croptop',
       image: ct1,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '3000',
     },
 
     {
-      name: 'Short Casual Frock',
+      name: 'Casual Crotop',
       image: ct2,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '4500',
     },
 
     {
-      name: 'Short Casual Frock',
+      name: 'Party Croptop',
       image: ct3,
       price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
     },
 
     {
-      name: 'Short Casual Frock',
+      name: 'Casual Croptop',
       image: ct4,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '3000',
     },
 
     {
-      name: 'Short Casual Frock',
+      name: 'Party Croptop',
       image: ct5,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '4500',
     },
 
     /*Toys section */
     {
-      name: 'Short Casual Frock',
+      name: 'Angry Bird',
       image: t1,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '6000',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Bunny',
       image: t2,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '5500',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Hello Kitty',
       image: t3,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '5000',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Couple Kuromi',
       image: t4,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '10000',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Pooh',
       image: t5,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '8000',
     },
     
     /*Bags collection */
     {
-      name: 'Short Casual Frock',
+      name: 'Class Bag',
       image: b1,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '2000',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Casual Bag',
       image: b2,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '3000',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Side Bag',
       image: b3,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '2500',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Mini Bag',
       image: b4,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '1000',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Class Bag',
       image: b5,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '4500',
     },
 
     /*Accessories collection */
     {
-      name: 'Short Casual Frock',
+      name: 'Small Hair Clips Set',
       image: a1,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '800',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Big Hair Clips',
       image: a2,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '300',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Earings',
       image: a3,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '800',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Sunflower Hair Clips',
       image: a4,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '1000',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Hair Bands',
       image: a5,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '300',
     },
-
 
     /*Bouqets collection */
     {
-      name: 'Short Casual Frock',
+      name: 'Bouquet 1',
       image: bq1,
       price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Bouquet 2',
       image: bq2,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '5000',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Bouquet 3',
       image: bq3,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '5500',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Bouquet 4',
       image: bq4,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '5000',
     },
     {
-      name: 'Short Casual Frock',
+      name: 'Bouqyet 5',
       image: bq5,
-      price: '4000',
-      description: 'A classic espresso-based coffee with steamed milk and a layer of foam.'
+      price: '6000',
     },
 
   ];
@@ -254,10 +223,10 @@ const ShopNow = () => {
 
          <section className="hero-section">
       <div className="hero-content">
-        <h2>Welcome!</h2>
-        <p>We serve the richest coffee in the city!</p>
+        <h1>Welcome!</h1>
+        <p>Crafting joy, One stitch at a time.</p>
+        <p>We are dedicated to delivering high-quality handmade creations with a commitment to 100% customer satisfaction.</p>
       </div>
-    <a href="/Shop" className="hero-button">Order Now</a> 
           </section>
 
     {/*Frocks Section */}
@@ -269,7 +238,6 @@ const ShopNow = () => {
           <div className="menu-item" key={index}>
             <img src={item.image} alt={item.name} />
             <h3>{item.name}</h3>
-            <p>{item.description}</p>
             <p>Rs. {item.price}</p>
             <Link to="/order-now" className="order-button">Order Now</Link>
           </div>
@@ -286,7 +254,6 @@ const ShopNow = () => {
           <div className="menu-item" key={index}>
             <img src={item.image} alt={item.name} />
             <h3>{item.name}</h3>
-            <p>{item.description}</p>
             <p>Rs. {item.price}</p>
             <Link to="/order-now" className="order-button">Order Now</Link>
           </div>
@@ -304,7 +271,6 @@ const ShopNow = () => {
           <div className="menu-item" key={index}>
             <img src={item.image} alt={item.name} />
             <h3>{item.name}</h3>
-            <p>{item.description}</p>
             <p>Rs. {item.price}</p>
             <Link to="/order-now" className="order-button">Order Now</Link>
           </div>
@@ -322,7 +288,6 @@ const ShopNow = () => {
           <div className="menu-item" key={index}>
             <img src={item.image} alt={item.name} />
             <h3>{item.name}</h3>
-            <p>{item.description}</p>
             <p>Rs. {item.price}</p>
             <Link to="/order-now" className="order-button">Order Now</Link>
           </div>
@@ -341,7 +306,6 @@ const ShopNow = () => {
           <div className="menu-item" key={index}>
             <img src={item.image} alt={item.name} />
             <h3>{item.name}</h3>
-            <p>{item.description}</p>
             <p>Rs. {item.price}</p>
             <Link to="/order-now" className="order-button">Order Now</Link>
           </div>
@@ -359,7 +323,6 @@ const ShopNow = () => {
           <div className="menu-item" key={index}>
             <img src={item.image} alt={item.name} />
             <h3>{item.name}</h3>
-            <p>{item.description}</p>
             <p>Rs. {item.price}</p>
             <Link to="/order-now" className="order-button">Order Now</Link>
           </div>

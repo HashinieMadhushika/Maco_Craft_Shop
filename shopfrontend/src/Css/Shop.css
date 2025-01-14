@@ -1,10 +1,10 @@
 .hero-section {
-    background-image: url('../Images/bak5.jpg');
+    background-image: url('../Images/bak3.jpg');
     background-size: cover;
     background-position: center center;
     padding: 0 0; /* Adjust padding as needed */
     text-align: center;
-    height: 100vh;
+    height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,7 +14,7 @@
   
   .hero-content {
     text-align: center;
-    margin-left:1200px;
+    margin-left:0px;
     font-size: 6rem;
     margin-bottom: 120px;
     font-weight: bold;
@@ -22,30 +22,20 @@
   
   .hero-content p{
     font-size: 3rem;
+    padding: 30px;
+    margin: 40px;
   }
   
   .hero-text {
     color: #333;
   }
   
-  .hero-button {
-    background-color: #553769; /* Dark purple color */
-    color: #ffffff;
-    padding: 30px 120px;
-    font-weight: bold;
-    font-size: 1.4rem;
-    border: none;
-    border-radius: 15px;
-    text-decoration: none;
-    margin-top: 550px;
-    margin-right: 850px;
-  }
 
   /* Items bar */
   .menu-container {
     margin: 20px auto;
     max-width: 2000px;
-    padding: 20px;
+    padding: 10px;
   }
   
   .menu-grid {
@@ -63,14 +53,28 @@
   }
   
   .menu-item img {
+    border-radius: 10px;
     max-width: 70%;
     height: 60%;
     margin-bottom: 0px;
+    transition: transform 0.2s ease-in-out;
+  }
+
+  .menu-item:hover img {
+    transform: scale(1.1); /* Increase size on hover */
   }
   
   .menu-item p {
     margin: 5px 0;
+    font-size: 1.4rem;
   }
+
+  .menu-container h1{
+  font-size: 3rem;
+  text-align: center;
+  justify-content: center;
+  }
+
   
   .order-button {
     display: inline-block;
@@ -79,6 +83,6 @@
     color: #fff;
     text-decoration: none;
     border-radius: 5px;
-    margin-top: 20px;
+    margin-top: 30px;
   }
   
