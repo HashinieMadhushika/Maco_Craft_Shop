@@ -33,15 +33,15 @@ import bq3 from "../Images/Bouq-03.jpg";
 import bq4 from "../Images/Bouq-04.jpg";
 import bq5 from "../Images/Bouq-05.jpg";
 
-import { Link } from 'react-router-dom'; // Import Link for navigation
+import { Link } from 'react-router-dom'; 
 
 const ShopNow = () => {
 
 
 
   const menuItems = [
+    /*Frocks Section */
     {
-      /*Frocks Section */
       name: 'Long Party Frock',
       image: f1,
       price: '5000',
@@ -208,8 +208,8 @@ const ShopNow = () => {
 
   ];
 
-  const frockItems = menuItems.slice(0, 5); // Get first 5 items for frocks
-  const croptopItems = menuItems.slice(5 , 10); // Get items from index 5 onwards for croptops 
+  const frockItems = menuItems.slice(0, 5); 
+  const croptopItems = menuItems.slice(5 , 10); 
   const toyItems = menuItems.slice(10 ,15);
   const bagItems = menuItems.slice(15 , 20);
   const accItems = menuItems.slice(20 , 25);
@@ -330,9 +330,7 @@ const ShopNow = () => {
       </div>
       </div>
       </div>
-
-      {/* Add other sections like "Our Special Dessert" here */}
-
+      
     </div>
 
 

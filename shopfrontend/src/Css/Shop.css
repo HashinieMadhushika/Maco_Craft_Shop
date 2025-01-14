@@ -2,13 +2,13 @@
     background-image: url('../Images/bak3.jpg');
     background-size: cover;
     background-position: center center;
-    padding: 0 0; /* Adjust padding as needed */
+    padding: 0 0;
     text-align: center;
     height: 80vh;
     display: flex;
     justify-content: center;
     align-items: center;
-    color: #000000;
+    color: #52297b;
     opacity: 0.9;
   }
   
@@ -61,7 +61,7 @@
   }
 
   .menu-item:hover img {
-    transform: scale(1.1); /* Increase size on hover */
+    transform: scale(1.1); 
   }
   
   .menu-item p {
