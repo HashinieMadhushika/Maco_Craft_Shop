@@ -1,0 +1,33 @@
+.success-container {
+    text-align: center;
+    padding: 0px;
+    margin-top: 190px;
+  }
+  
+
+  .success-container h1 {
+   font-size: 3.5rem;
+   margin-top: 150px;
+   padding-top: 0px;
+  }
+
+  
+  .success-container h2 {
+    font-size: 3rem;
+    padding: 40px;
+   }
+   
+  
+
+  .login-button {
+    display: inline-block;
+    padding: 20px 1px;
+    background-color: #3f1f5b;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 15px;
+    font-weight: bold;
+    justify-content: center;
+    align-items: center;
+    margin-right: 230px;
+  }

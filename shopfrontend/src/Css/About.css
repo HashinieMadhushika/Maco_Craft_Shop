@@ -8,7 +8,7 @@
   
   .about-me-image {
     margin-left: 300px;
-    width: 27%; /* Adjust width as needed */
+    width: 27%; 
    
   }
   
@@ -20,8 +20,8 @@
   
   .about-me-content {
     align-items: center;
-    flex: 1; /* Allow content to take up remaining space */
-    margin-left: 1rem; /* Add some spacing between image and text */
+    flex: 1; 
+    margin-left: 1rem; 
   }
 
   .about-me-content h1{
@@ -139,12 +139,12 @@
   }
   
   .social-link {
-    color: #18191b; /* Blue color */
-    text-decoration: none; /* Remove default underline */
+    color: #18191b; 
+    text-decoration: none; 
   }
   
   .social-link:hover {
-    text-decoration: underline; /* Underline on hover */
+    text-decoration: underline;
   }
   .watermark {
     position: fixed; 
@@ -152,7 +152,7 @@
     right: 520px; 
     opacity: 0.15; 
     pointer-events: none; 
-    z-index: 0; /* Set z-index to a negative value */
+    z-index: 0; 
   }
 
   

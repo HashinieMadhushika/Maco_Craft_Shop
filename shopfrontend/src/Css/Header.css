@@ -12,7 +12,7 @@ body {
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    background-color: #5a2d82; /* Dark purple theme */
+    background-color: #5a2d82; 
     color: white;
    
   }
@@ -59,11 +59,11 @@ body {
   }
   
   .nav ul li .nav-link:hover {
-    color: #da96d3; /* Light purple on hover */
+    color: #da96d3; 
   }
   
   .nav ul li .nav-link:active {
-    color: #d23b98; /* Lighter purple when clicked */
+    color: #d23b98; 
   }
   
   /* Main Content */
@@ -84,9 +84,8 @@ body {
   
   /* Section background styling */
   .animated-text-section {
-    background-color: #a46ec4; /* 
-    Light purple background */
-    padding: 1px 0; /* Padding for spacing */
+    background-color: #a46ec4; 
+    padding: 1px 0; 
     text-align: center;
   }
   
@@ -95,10 +94,10 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 30px;
     font-weight: bold;
-    color: #6a1b9a; /* Deep purple */
+    color: #6a1b9a; 
     display: inline-block;
-    white-space: nowrap; /* Prevent text from wrapping */
-    overflow: hidden; /* Hide overflowing text for typing effect */
-    border-right: 2px solid #6a1b9a; /* Mimic blinking cursor */
+    white-space: nowrap; 
+    overflow: hidden;
+    border-right: 2px solid #6a1b9a; 
   }
   

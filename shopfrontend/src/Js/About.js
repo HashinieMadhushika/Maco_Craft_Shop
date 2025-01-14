@@ -3,7 +3,7 @@ import "../Css/About.css";
 import myimage1 from "../Images/my Image-1.jpg";
 import Footer from './Footer';
 import Header from './Header';
-import img1 from "../Images/Profile-1.jpg"; // Replace with actual image paths
+import img1 from "../Images/Profile-1.jpg";
 import img2 from "../Images/Profile-2.jpg";
 import img3 from "../Images/Profile-5.jpg";
 import img4 from "../Images/Profile-6.jpg";

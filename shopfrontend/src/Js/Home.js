@@ -248,7 +248,7 @@ const Home = () => {
       </div>
 
       <div className="package-row"> 
-        {/* Add more package cards here if needed */}
+
       </div>
 
       <a href="/Shop" className="more-packages-button" onClick >MORE PACKAGES</a>

@@ -1,5 +1,5 @@
-import "../Css/Header.css"; // Import Home.css for styling
-import logo from "../Images/Maco_Craft_Logo-01.png"; // Import logo
+import "../Css/Header.css"; 
+import logo from "../Images/Maco_Craft_Logo-01.png"; 
  import { Link } from "react-router-dom"; 
 import profileIcon from "../Images/Profile_Icon2.png";
 
@@ -14,11 +14,8 @@ return(
      </div>
      
      <div className="profile">
-     <Link to="/profile">
-     <img src={profileIcon}
-     alt="Profile Icon"
-     className="profile-icon"
-     />
+     <Link to="/Profile">
+     <img src={profileIcon} alt="Profile Icon" className="profile-icon"/>
      </Link>
      </div>
      <nav className="nav">

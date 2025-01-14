@@ -11,7 +11,7 @@
     margin: 15px;
     display: flex;
     flex-direction: column;
-    margin-right: 2rem; /* Add spacing between sections */
+    margin-right: 2rem;
   }
   
   .footer-section h3 {
@@ -47,7 +47,7 @@
   .footer-social-icons {
     flex-direction: column;
     display: flex;
-    align-items: center; /* Align icons vertically */
+    align-items: center; 
   }
   
   .footer-social-icons a {

@@ -1,20 +1,20 @@
 .contact-section {
-    background-color: #E9E9E9; /* Light Gray background */
-    padding: 50px 0; /* Top and bottom padding */
+    background-color: #E9E9E9;
+    padding: 50px 0; 
     text-align: center;
   }
   
   .contact-heading {
-    font-size: 3rem; /* Adjust font size as needed */
+    font-size: 3rem; 
     font-weight: bold;
-    color: #800080; /* Dark Purple */
+    color: #800080; 
     margin-bottom: 20px;
     text-align: center;
   }
   
   .contact-subheading {
     font-size: 1.5rem;
-    color: #800080; /* Dark Purple */
+    color: #800080; 
     margin-bottom: 30px;
     text-align: center;
     font-style: italic;
@@ -32,12 +32,12 @@
     background-color: #fce7f3;
     display: flex;
     justify-content: space-between;
-    margin-top: 30px; /* Adjust margin as needed */
+    margin-top: 30px; 
   }
   
   .form-group {
     margin-left: 250px;
-    width: 35%; /* Adjust width as needed */
+    width: 35%;
     padding: 50px;
     border: 1px solid #ccc;
     border-radius: 20px;
@@ -66,7 +66,7 @@
   }
   
   .submit-button {
-    background-color: #800080; /* Dark Purple */
+    background-color: #800080; 
     color: #fff;
     padding: 12px 20px;
     border: none;
@@ -106,7 +106,7 @@
   }
   
   .news-alert button {
-    background-color: #800080; /* Dark Purple */
+    background-color: #800080; 
     color: #fff;
     padding: 12px 20px;
     border: none;
