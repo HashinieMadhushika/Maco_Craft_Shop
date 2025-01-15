@@ -14,7 +14,7 @@ return(
      </div>
      
      <div className="profile">
-     <Link to="/Profile">
+     <Link to="/Login">
      <img src={profileIcon} alt="Profile Icon" className="profile-icon"/>
      </Link>
      </div>

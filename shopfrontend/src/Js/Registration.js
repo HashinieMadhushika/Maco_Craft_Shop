@@ -13,7 +13,7 @@ const RegistrationSuccess = () => {
     <div className="success-container">
       <h1>Registration Successful!</h1>
       <h2>Your account has been created successfully.</h2>
-      <Link to="/profile" className="login-button">
+      <Link to="/login" className="login-button">
         Go to Login
       </Link>
     </div>

@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import About from "./Js/About"; 
 import Shop from "./Js/Shop"; 
 import Contact from "./Js/Contact"; 
-import Profile from "./Js/Profile.js";
+import Login from "./Js/Login.js";
 import Signup from "./Js/Signup.js";
 import RegistrationSuccess from "./Js/Registration.js";
 
@@ -16,7 +16,7 @@ const App = () => {
       <Route path="/about" element={<About />} />
       <Route path="/shop" element={<Shop />} />
       <Route path="/contact" element={<Contact />} />
-      <Route path="/Profile" element={<Profile/>} />
+      <Route path="/Login" element={<Login/>} />
       <Route path="/signup" element={<Signup/>} />
       <Route path="/registration-success" element={<RegistrationSuccess/>} />
    </Routes>
