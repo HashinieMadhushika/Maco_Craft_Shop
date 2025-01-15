@@ -1,10 +1,10 @@
 import React from 'react';
 import "../Css/Footer.css";
 import { useNavigate } from 'react-router-dom';
-/*import facebook from "../Images/facebook.png";
-import insta from "../Images/instagram.png"; */
-/* import tiktok from "../Images/tik-tok.png"; 
-import twitter from "../Images/twitter.png";*/
+import facebook from "../Images/facebook.png";
+import insta from "../Images/instagram.png"; 
+import tiktok from "../Images/tik-tok.png"; 
+import twitter from "../Images/twitter.png";
  
 
 
@@ -20,7 +20,7 @@ function Footer() {
       <div className="footer-section">
         <h3>COMPANY AND OUR POLICIES</h3>
         <ul>
-          <li onClick={() => navigate('/about-us')}>About us</li>
+          <li onClick={() => navigate('/about')}>About us</li>
           <li onClick={() => navigate('/privacy-policy')}>Privacy Policy</li>
           <li onClick={() => navigate('/shipping')}>Shipping</li>
           <li onClick={() => navigate('/returns-exchange')}>Returns & Exchange policy</li>
@@ -48,14 +48,17 @@ function Footer() {
       <div className="footer-section">
         <h3>FOLLOW US ON</h3>
         <div className="footer-social-icons"> 
-          <a href="https://www.facebook.com/your-facebook-page-url" target="_blank" rel="noopener noreferrer">
-          {/*  <img src={facebook} alt='facebook' /> */}
+          <a href="https://www.facebook.com/profile.php?id=100095453888723&mibextid=ZbWKwL" target="_blank" rel="noopener noreferrer">
+           <img src={facebook} alt='facebook' /> 
           </a>
-          <a href="https://www.instagram.com/your-instagram-page-url" target="_blank" rel="noopener noreferrer">
-            {/*<img src={insta} alt='insta' /> */}
+          <a href="https://www.instagram.com/macocraft?igsh=MWhlZzBpZzU5NTF4MQ==" target="_blank" rel="noopener noreferrer">
+            <img src={insta} alt='insta' /> 
           </a>
-          <a href="https://www.twitter.com/your-twitter-page-url" target="_blank" rel="noopener noreferrer">
-            {/*<img src={twitter} alt='twitter' /> */}
+          <a href="https://www.tiktok.com/@maco_craft_?_t=ZS-8t65d2PclrM&_r=1" target="_blank" rel="noopener noreferrer">
+            <img src={twitter} alt='twitter' /> 
+          </a>
+          <a href="https://www.tiktok.com/@maco_craft_?_t=ZS-8t65d2PclrM&_r=1" target="_blank" rel="noopener noreferrer">
+            <img src={tiktok} alt='tiktokr' /> 
           </a>
         </div>
       </div>

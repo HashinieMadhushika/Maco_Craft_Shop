@@ -7,6 +7,7 @@ import Contact from "./Js/Contact";
 import Login from "./Js/Login.js";
 import Signup from "./Js/Signup.js";
 import RegistrationSuccess from "./Js/Registration.js";
+import GiftBox from "./Js/giftbox.js";
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Route path="/Login" element={<Login/>} />
       <Route path="/signup" element={<Signup/>} />
       <Route path="/registration-success" element={<RegistrationSuccess/>} />
+      <Route path="/giftbox" element={<GiftBox/>}  />
    </Routes>
   </Router>
   );

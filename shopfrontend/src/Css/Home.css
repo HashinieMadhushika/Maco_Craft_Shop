@@ -110,21 +110,7 @@ body {
   text-align: center;
   white-space: nowrap; 
 }
-/*Show All Button */
-.show-all-button {
-  background-color: #F08080; 
-  color: #FFFFFF;
-  border: none;
-  padding: 0.8rem 5rem;
-  border-radius: 8px;
-  cursor: pointer;
-  margin-left: 80rem;
-  font-size: 1.5rem;
-}
 
-.show-all-button:hover {
-  background-color: #FF6347; 
-}
 
 /* Bulk Orders Section */
 .bulk-orders-section {
@@ -262,7 +248,7 @@ body {
 }
 
 .package-card-content h3 {
-  margin-bottom: 1rem;
+  margin-bottom: 10px;
   font-size: 2rem;
   color: #9932CC;
 }
@@ -306,7 +292,7 @@ body {
   border-radius: 5px;
   cursor: pointer;
   text-decoration: none;
-  margin-top: 0rem;
+  margin-bottom: 2rem;
   transition: background-color 0.3s ease;
 }
 
@@ -344,11 +330,14 @@ body {
   align-items: center;
   margin-bottom: 1rem;
   margin-right: 120rem;
+  color: #000000;
+  text-decoration: none;
 }
 
 .yarn-type a {
   margin-right: 0.5rem;
   font-size: 5rem;
+  
 }
 
 .yarn-grid {
@@ -356,6 +345,7 @@ body {
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 0.4rem; 
   margin-left:3rem;
+  margin-bottom: 30px;
 }
 
 .yarn-grid img {

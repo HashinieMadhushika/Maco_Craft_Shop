@@ -32,6 +32,7 @@ import package1 from "../Images/Pack-02.jpg";
 import package2 from "../Images/Pack-05.jpg";
 import Footer from './Footer';
 import Header from "./Header";
+import { Link } from 'react-router-dom';
 
 
 const Home = () => {
@@ -81,7 +82,7 @@ const Home = () => {
         </div>
 
         <div className="product-grid">
-          <div className="product-item">
+          <Link to='/shop' className="product-item">
           <img
             src={hoveredImage === 'frock' ? frock2 : frock1}
             alt="Frock"
@@ -89,8 +90,9 @@ const Home = () => {
             onMouseLeave={handleLeave}
           />
             <span className="label">FROCKS</span>
-          </div>
-          <div className="product-item">
+          </Link>
+
+          <Link to='/shop' className="product-item">
           <img
             src={hoveredImage === 'croptop' ? croptop2 : croptop1}
             alt="Frock"
@@ -98,8 +100,10 @@ const Home = () => {
             onMouseLeave={handleLeave}
           />
             <span className="label">CROPTOPS</span>
-          </div>
-          <div className="product-item">
+          </Link>
+
+
+          <Link to='/shop'  className="product-item">
           <img
             src={hoveredImage === 'toy' ? toy2 : toy1}
             alt="Frock"
@@ -107,9 +111,10 @@ const Home = () => {
             onMouseLeave={handleLeave}
           />
             <span className="label">TOYS</span>
-          </div>
+          </Link>
 
-          <div className="product-item">
+
+          <Link to='/shop' className="product-item">
           <img
             src={hoveredImage === 'bags' ? bag2 : bag1}
             alt="Frock"
@@ -117,9 +122,10 @@ const Home = () => {
             onMouseLeave={handleLeave}
           />
             <span className="label">BAGS</span>
-          </div>
+          </Link>
 
-          <div className="product-item">
+
+          <Link to='/shop' className="product-item">
           <img
             src={hoveredImage === 'acceccories' ? acc2 : acc1}
             alt="Frock"
@@ -128,8 +134,10 @@ const Home = () => {
           />
             <span className="label">ACCESSORIES</span>
 
-          </div>
-          <div className="product-item">
+          </Link>
+
+
+          <Link to='/shop' className="product-item">
           <img
             src={hoveredImage === 'bouquets' ? bouquet2 : bouquet1}
             alt="Frock"
@@ -137,8 +145,11 @@ const Home = () => {
             onMouseLeave={handleLeave}
           />
             <span className="label">BOUQUETS</span>
-          </div>
+          </Link>
+
+
         </div>
+
       </main>
 
       {/*Call us, Payment methods, Delivery Bar*/}
@@ -166,10 +177,11 @@ const Home = () => {
         </div>
       </div>
       </div>
+
+
       {/* Bulk Order Description */}
       <div className="recent-bulk-order">
       <h1>RECENT BULK ORDERS</h1>
-      <button className="show-all-button" onClick >Show All</button>
     </div>
 
     <div className="bulk-orders-section">
@@ -184,17 +196,17 @@ const Home = () => {
           <h1>We Accept Bulk Orders</h1>
           <p>We're thrilled to offer bulk order services! To guarantee timely delivery and maintain our commitment to exceptional quality, kindly place your order a minimum of 7-8 days in advance. Our dedicated team will work diligently to fulfill your order promptly and efficiently. By placing your order early, you'll ensure that we have ample time to source the best materials and allocate the necessary resources to meet your specific needs. We prioritize customer satisfaction and strive to exceed your expectations with every order.</p>
           </div> 
-          <a className="contact-us-button" href="/contact-us" onClick >Contact Us</a>
+          <Link to='/contact' className="contact-us-button"  >Contact Us</Link>
         </div>
       </div>
 
       {/*Restocked Materials Section */}
       <div className="restock-container">
       <h1 className="restock-header">RESTOCKED MATERIALS</h1>
-      <div className="yarn-type">
+      <Link to='/yarn' className="yarn-type">
         <h1>Milk Cotton Yarn</h1>
         <span> → </span> 
-      </div>
+      </Link>
       <div className="yarn-grid">
         <img src={yarn1} alt="Yarn 1" />
         <img src={yarn2} alt="Yarn 2" />
@@ -225,7 +237,7 @@ const Home = () => {
             <li>We supply high quality products. You can customize gift packs as you wish.</li>
             <li>Price will vary when I add your customize requirements.</li>
           </ul>
-          <a href="/Shop" className="shop-now-button" onClick >SHOP NOW</a>
+          <a href="/giftbox" className="shop-now-button" onClick >SHOP NOW</a>
         </div>
         </div>
 
@@ -242,7 +254,7 @@ const Home = () => {
             <li>We supply high quality products. You can customize gift packs as you wish.</li>
             <li>Price will vary when I add your customize requirements.</li>
           </ul>
-          <a href="/Shop" className="shop-now-button" onClick >SHOP NOW</a>
+          <a href="/giftbox" className="shop-now-button" onClick >SHOP NOW</a>
         </div>
         </div>
       </div>
@@ -251,7 +263,7 @@ const Home = () => {
 
       </div>
 
-      <a href="/Shop" className="more-packages-button" onClick >MORE PACKAGES</a>
+      <a href="/giftbox" className="more-packages-button" onClick >MORE PACKAGES</a>
     </div>
 
 
