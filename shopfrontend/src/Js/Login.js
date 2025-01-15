@@ -11,7 +11,7 @@ const Login = () => {
   const navigate = useNavigate();
 
   const handleSubmit = async (event) => {
-    event.preventDefault(); // Prevent the default form submission behavior
+    event.preventDefault(); 
 
     try {
       const response = await fetch('http://localhost:3001/login', {
@@ -21,9 +21,9 @@ const Login = () => {
       });
 
       if (response.ok) {
-        const data = await response.json(); // Parse the response JSON
+        const data = await response.json(); 
         console.log('Login successful:', data);
-        navigate('/'); // Redirect to the home page
+        navigate('/'); 
       } else {
         alert('Invalid email or password.');
       }

@@ -12,7 +12,7 @@ const Signup = () => {
   const navigate = useNavigate();
 
   const handleSubmit = async (e) => {
-    e.preventDefault(); // Prevent the default form submission behavior
+    e.preventDefault(); 
 
     try {
       const response = await fetch('http://localhost:3001/signup', {

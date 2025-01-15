@@ -1,6 +1,6 @@
 const express = require('express');
 const cors = require('cors');
-const pool = require('./db'); // Import the database connection
+const pool = require('./db'); 
 const app = express();
 const port = 3001;
 
