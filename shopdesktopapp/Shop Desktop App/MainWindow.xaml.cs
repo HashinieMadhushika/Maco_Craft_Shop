@@ -8,6 +8,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Shop_Desktop_App;
+
 
 namespace Shop_Desktop_App
 {
@@ -19,6 +21,26 @@ namespace Shop_Desktop_App
         public MainWindow()
         {
             InitializeComponent();
+
+        }
+
+        public void btnLogin_Click(object sender, RoutedEventArgs e)
+        {
+
+            HomePage homePage = new HomePage();
+            homePage.Show();
+
+        }
+
+        public void btnSignUp_Click(object sender, RoutedEventArgs e)
+        {
+            MainFrame.Navigate(new Uri("SignUp.xaml", UriKind.Relative));
+
+        }
+
+        private void MainFrame_Navigated(object sender, NavigationEventArgs e)
+        {
+
         }
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Shop_Desktop_App;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,6 +24,28 @@ namespace Shop_Desktop_App
         public SignUp()
         {
             InitializeComponent();
+        }
+
+        private void btnSignUp_Click(object sender, RoutedEventArgs e)
+        {
+            // TODO: Implement signup logic here
+            // Validate email, password, confirm password, etc.
+            // If successful, navigate to the home page
+            HomePage homePage = new HomePage();
+            homePage.Show();
+        }
+        private bool ValidateSignUp()
+        {
+            // Implement your actual validation logic here
+            // For example:
+            string email = txtEmail.Text;
+            string password = pwdPassword.Password;
+            // int phonenumber = pnphonenumber.Number;
+
+            // Check if email is valid, passwords match, etc.
+            // ...
+
+            return true; // Replace with actual validation result
         }
     }
 }
