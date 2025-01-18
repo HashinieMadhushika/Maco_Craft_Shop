@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\Shop Desktop App\\Shop Desktop App\\Shop Desktop App.csproj": {}
+    "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\Shop Desktop App.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\Shop Desktop App\\Shop Desktop App\\Shop Desktop App.csproj": {
+    "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\Shop Desktop App.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\Shop Desktop App\\Shop Desktop App\\Shop Desktop App.csproj",
+        "projectUniqueName": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\Shop Desktop App.csproj",
         "projectName": "Shop Desktop App",
-        "projectPath": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\Shop Desktop App\\Shop Desktop App\\Shop Desktop App.csproj",
+        "projectPath": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\Shop Desktop App.csproj",
         "packagesPath": "C:\\Users\\Hashinie\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\Shop Desktop App\\Shop Desktop App\\obj\\",
+        "outputPath": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

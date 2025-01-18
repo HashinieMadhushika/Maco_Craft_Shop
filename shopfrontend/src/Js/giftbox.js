@@ -10,8 +10,6 @@ const GiftBox = () =>{
             
             <Footer/>
         </div>
-
-
     )
 };
 
