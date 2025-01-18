@@ -1,5 +1,4 @@
-﻿using Shop_Desktop_App;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -28,7 +27,7 @@ namespace Shop_Desktop_App
 
         private void btnSignUp_Click(object sender, RoutedEventArgs e)
         {
-            // TODO: Implement signup logic here
+            // Implement signup logic here
             // Validate email, password, confirm password, etc.
             // If successful, navigate to the home page
             HomePage homePage = new HomePage();
