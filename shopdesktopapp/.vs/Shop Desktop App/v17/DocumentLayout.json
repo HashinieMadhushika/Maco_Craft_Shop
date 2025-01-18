@@ -1,12 +1,68 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{59F5153B-EDD9-4A36-B80F-5B5F23A5E77F}|Shop Desktop App\\Shop Desktop App.csproj|c:\\users\\hashinie\\desktop\\shop\\maco_craft_shop\\shopdesktopapp\\shop desktop app\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59F5153B-EDD9-4A36-B80F-5B5F23A5E77F}|Shop Desktop App\\Shop Desktop App.csproj|solutionrelative:shop desktop app\\signup.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F5153B-EDD9-4A36-B80F-5B5F23A5E77F}|Shop Desktop App\\Shop Desktop App.csproj|c:\\users\\hashinie\\desktop\\shop\\maco_craft_shop\\shopdesktopapp\\shop desktop app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59F5153B-EDD9-4A36-B80F-5B5F23A5E77F}|Shop Desktop App\\Shop Desktop App.csproj|solutionrelative:shop desktop app\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{59F5153B-EDD9-4A36-B80F-5B5F23A5E77F}|Shop Desktop App\\Shop Desktop App.csproj|c:\\users\\hashinie\\desktop\\shop\\maco_craft_shop\\shopdesktopapp\\shop desktop app\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{59F5153B-EDD9-4A36-B80F-5B5F23A5E77F}|Shop Desktop App\\Shop Desktop App.csproj|solutionrelative:shop desktop app\\homepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SignUp.xaml",
+              "DocumentMoniker": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\SignUp.xaml",
+              "RelativeDocumentMoniker": "Shop Desktop App\\SignUp.xaml",
+              "ToolTip": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\SignUp.xaml",
+              "RelativeToolTip": "Shop Desktop App\\SignUp.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T16:33:47.899Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Shop Desktop App\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\MainWindow.xaml",
+              "RelativeToolTip": "Shop Desktop App\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T16:33:04.154Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomePage.xaml",
+              "DocumentMoniker": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\HomePage.xaml",
+              "RelativeDocumentMoniker": "Shop Desktop App\\HomePage.xaml",
+              "ToolTip": "C:\\Users\\Hashinie\\Desktop\\Shop\\Maco_Craft_Shop\\shopdesktopapp\\Shop Desktop App\\HomePage.xaml",
+              "RelativeToolTip": "Shop Desktop App\\HomePage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-18T16:42:35.709Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

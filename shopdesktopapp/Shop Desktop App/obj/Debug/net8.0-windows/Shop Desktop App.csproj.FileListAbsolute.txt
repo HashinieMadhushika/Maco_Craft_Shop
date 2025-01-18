@@ -1,0 +1,25 @@
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\bin\Debug\net8.0-windows\Shop Desktop App.exe
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\bin\Debug\net8.0-windows\Shop Desktop App.deps.json
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\bin\Debug\net8.0-windows\Shop Desktop App.runtimeconfig.json
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\bin\Debug\net8.0-windows\Shop Desktop App.dll
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\bin\Debug\net8.0-windows\Shop Desktop App.pdb
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\HomePage.g.cs
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\MainWindow.g.cs
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\SignUp.g.cs
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\App.g.cs
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App_MarkupCompile.cache
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App_MarkupCompile.lref
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\HomePage.baml
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\MainWindow.baml
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\SignUp.baml
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App.g.resources
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App.AssemblyInfoInputs.cache
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App.AssemblyInfo.cs
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App.csproj.CoreCompileInputs.cache
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App.sourcelink.json
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App.dll
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\refint\Shop Desktop App.dll
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App.pdb
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\Shop Desktop App.genruntimeconfig.cache
+C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopdesktopapp\Shop Desktop App\obj\Debug\net8.0-windows\ref\Shop Desktop App.dll

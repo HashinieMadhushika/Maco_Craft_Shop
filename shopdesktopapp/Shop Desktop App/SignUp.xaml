@@ -8,7 +8,21 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="SignUp">
 
-    <Grid Background="#FFFCE7F3">
+    <Page.Resources>
+        <!-- Define a style for TextBlock -->
+        <Style TargetType="TextBlock">
+            <Setter Property="Foreground" Value="#bc6c25" />
+        </Style>
+    </Page.Resources>
+
+    <Grid>
+
+        <!-- Background image -->
+        <Grid.Background>
+            <ImageBrush ImageSource="C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopfrontend\src\Images/bak9.jpg" 
+                        Stretch="UniformToFill" />
+        </Grid.Background>
+
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="*"/>
             <ColumnDefinition Width="Auto"/>
@@ -18,33 +32,28 @@
             <RowDefinition Height="Auto"/>
         </Grid.RowDefinitions>
 
-        <Image Grid.Column="0" 
-               Grid.Row="0" 
-               Source="C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopfrontend\src\Images\bak5.jpg" 
-               Stretch="UniformToFill" 
-               Width="1200" Height="750">
 
-        </Image>
+        <Border  Margin="20" Background="#fefae0" 
+          CornerRadius="40" Padding="20" VerticalAlignment="Center" HorizontalAlignment="Center" Width="450" Height="600">
+            <StackPanel Grid.Column="1" Grid.Row="0" Margin="20" VerticalAlignment="Center" >
+            <TextBlock Text="Create Account" FontSize="50" FontWeight="Bold" Margin="0,0,0,40" />
 
-        <StackPanel Grid.Column="1" Grid.Row="0" Margin="20" VerticalAlignment="Center">
-            <TextBlock Text="Create Account" FontSize="50" FontWeight="Bold" Margin="0,0,0,20"/>
+                <RadioButton Content="User" GroupName="UserType" IsChecked="True" FontSize="24"  Margin="0,0,10,20"/>
+                <RadioButton Content="Admin" GroupName="UserType" FontSize="24" />
 
-            <RadioButton Content="User" GroupName="UserType" IsChecked="True" FontSize="24"/>
-            <RadioButton Content="Admin" GroupName="UserType" FontSize="24" />
-
-            <TextBlock Text="Enter your details : " FontSize="24" FontWeight="DemiBold"  Margin="0,20,0,10"/>
+            <TextBlock Text="Enter your details : " FontSize="26" FontWeight="Bold"  Margin="0,20,0,10"/>
 
             <TextBlock Text="Enter your email :" FontSize="24"  Margin="0,0,0,0"/>
-            <TextBox x:Name="txtEmail" FontSize="18" Margin="0,0,50,10" />
+            <TextBox x:Name="txtEmail" FontSize="18" Margin="0,0,60,10" />
 
             <TextBlock Text="Enter your password :" FontSize="24"  Margin="0,0,0,0"/>
-            <PasswordBox x:Name="pwdPassword"  FontSize="18" Margin="0,0,50,10" />
+            <PasswordBox x:Name="pwdPassword"  FontSize="18" Margin="0,0,60,10" />
 
             <TextBlock Text="Enter your phone number :" FontSize="24"  Margin="0,0,0,0"/>
-            <TextBox x:Name="pnphonenumber"  FontSize="18" Margin="0,0,50,10" />
+            <TextBox x:Name="pnphonenumber"  FontSize="18" Margin="0,0,60,10" />
 
-            <Button Content="Sign Up" Width="100" Click="btnSignUp_Click" Background="#FF5F365F" Foreground="White" FontSize="24"/>
+                <Button Content="Sign Up" Width="100" Click="btnSignUp_Click" Background="#bc6c25" Foreground="White" FontSize="24"/>
         </StackPanel>
-
+        </Border>
     </Grid>
 </Page>
