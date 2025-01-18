@@ -6,32 +6,50 @@
         xmlns:local="clr-namespace:Shop_Desktop_App"
         mc:Ignorable="d"
         Title="HomePage" Height="450" Width="800">
+
+
     <Grid>
         <DockPanel>
-            <StackPanel DockPanel.Dock="Left" Background="#333" Width="200">
-                <TextBlock Text="Maco Craft Admin" Foreground="White" FontSize="18" FontWeight="Bold" Margin="10"/>
-                <Button Content="Dashboard" Margin="5" Padding="10" />
-                <Button Content="Products" Margin="5" Padding="10" />
-                <Button Content="Orders" Margin="5" Padding="10"/>
-                <Button Content="Logout" Margin="5" Padding="10"/>
-            </StackPanel>
+            <Grid>
 
-            <!-- Content Area -->
-            <Grid Background="White" Margin="10">
-                <!-- Data Grid for Products -->
-                <DataGrid x:Name="ProductsDataGrid" AutoGenerateColumns="True" Margin="10" />
+                <Grid.Background>
+                    <ImageBrush ImageSource="C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopfrontend\src\Images/Br1.jpg" 
+                        Stretch="UniformToFill" />
+                </Grid.Background>
 
-                <!-- CRUD Operations -->
-                <StackPanel Orientation="Vertical" VerticalAlignment="Top" Margin="10">
-                    <TextBox x:Name="txtProductName"   Margin="5" />
-                    <TextBox x:Name="txtProductPrice"  Margin="5" />
-                    <TextBox x:Name="txtCategory"  Margin="5" />
-                    <TextBox x:Name="txtStock"  Margin="5" />
-                    <Button Content="Add Product"  Margin="5" />
-                    <Button Content="Update Product"  Margin="5" />
-                    <Button Content="Delete Product"  Margin="5" />
+                <StackPanel DockPanel.Dock="Left"  Width="200">
+                    <TextBlock Text="Maco Craft Admin" Foreground="White" FontSize="21" FontWeight="Bold" Margin="10"/>
+                    <Button Content="Dashboard" Margin="5" Padding="15" Foreground="#bc6c25" Background="#fefae0" FontSize="17" FontWeight="Bold"/>
+                    <Button Content="Products" Margin="5" Padding="15" Foreground="#bc6c25" Background="#fefae0" FontSize="17" FontWeight="Bold"/>
+                    <Button Content="Orders" Margin="5" Padding="15" Foreground="#bc6c25" Background="#fefae0" FontSize="17" FontWeight="Bold"/>
+                    <Button Content="Logout" Margin="5" Padding="15" Foreground="#bc6c25" Background="#fefae0" FontSize="17" FontWeight="Bold"/>
                 </StackPanel>
             </Grid>
+            <!-- Content Area -->
+           
+            <Grid Background="#fefae0" Margin="30" >
+
+                <StackPanel Orientation="Vertical" Grid.Row="0" Margin="20,10">
+                    <!-- Title -->
+                    <TextBlock Text="Dashboard" Foreground="#bc6c25" FontSize="50" FontWeight="Bold" Margin="10"/>
+                    <TextBlock Text="User Management" FontSize="32" FontWeight="Bold" Foreground="#bc6c25" Margin="10" />
+
+                </StackPanel>
+
+                <!-- Buttons Section -->
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="1" >
+                        <!-- Add User Button -->
+                        <Button Content="Add User" Width="100" Height="40" Margin="0,110,20,0" Background="#bc6c25" Foreground="White" FontWeight="Bold" FontSize="16"/>
+
+                        <!-- Delete User Button -->
+                        <Button Content="Delete User" Width="100" Height="40" Margin="0,110,20,0" Background="#bc6c25" Foreground="White" FontWeight="Bold" FontSize="16"/>
+
+                        <!-- Update User Button -->
+                        <Button Content="Update User" Width="100" Height="40" Margin="0,110,20,0" Background="#bc6c25" Foreground="White" FontWeight="Bold" FontSize="16"/>
+                    </StackPanel>
+                </Grid>
+            
+
         </DockPanel>
     </Grid>
 </Window>
