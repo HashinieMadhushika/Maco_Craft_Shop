@@ -7,11 +7,9 @@
         mc:Ignorable="d"
         Title="HomePage" Height="450" Width="800">
 
-
     <Grid>
         <DockPanel>
             <Grid>
-
                 <Grid.Background>
                     <ImageBrush ImageSource="C:\Users\Hashinie\Desktop\Shop\Maco_Craft_Shop\shopfrontend\src\Images/Br1.jpg" 
                         Stretch="UniformToFill" />
@@ -22,35 +20,40 @@
                     <Button Content="Dashboard" Margin="5" Padding="15" Foreground="#bc6c25" Background="#fefae0" FontSize="17" FontWeight="Bold"/>
                     <Button Content="Products" Margin="5" Padding="15" Foreground="#bc6c25" Background="#fefae0" FontSize="17" FontWeight="Bold"/>
                     <Button Content="Orders" Margin="5" Padding="15" Foreground="#bc6c25" Background="#fefae0" FontSize="17" FontWeight="Bold"/>
-                    <Button Content="Logout" Margin="5" Padding="15" Foreground="#bc6c25" Background="#fefae0" FontSize="17" FontWeight="Bold"/>
+                    <Button Content="Logout" Margin="5" Padding="15" Foreground="#bc6c25" Background="#fefae0" FontSize="17" FontWeight="Bold" />
                 </StackPanel>
             </Grid>
+
             <!-- Content Area -->
-           
-            <Grid Background="#fefae0" Margin="30" >
+            <Grid Background="#fefae0" Margin="30">
+                <!-- Add User Button -->
+                <Button Content="Add User" Width="100" Height="40"  Background="#bc6c25" Foreground="White" Click="AddUser_Click"  Margin="950,0,0,640"/>
+                
+                <StackPanel Orientation="Vertical" Margin="20,10">
+                    <TextBlock Text="User Management" FontSize="32" FontWeight="Bold" Foreground="#bc6c25" Margin="10"/>
 
-                <StackPanel Orientation="Vertical" Grid.Row="0" Margin="20,10">
-                    <!-- Title -->
-                    <TextBlock Text="Dashboard" Foreground="#bc6c25" FontSize="50" FontWeight="Bold" Margin="10"/>
-                    <TextBlock Text="User Management" FontSize="32" FontWeight="Bold" Foreground="#bc6c25" Margin="10" />
+                    <!-- User Management Table -->
+                    <DataGrid x:Name="UserTable" AutoGenerateColumns="False" Height="200" Width="750" Margin="10">
+                        <DataGrid.Columns>
+                            <DataGridTextColumn Header="Name" Binding="{Binding Name}" Width="200"/>
+                            <DataGridTextColumn Header="Role" Binding="{Binding Role}" Width="150"/>
+                            <DataGridTextColumn Header="Status" Binding="{Binding Status}" Width="150"/>
+                            <DataGridTemplateColumn Header="Actions" Width="250">
+                                <DataGridTemplateColumn.CellTemplate>
+                                    <DataTemplate>
+                                        <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                                            <Button Content="Update" Width="60" Margin="5" Click="UpdateUser_Click"/>
+                                            <Button Content="Delete" Width="60" Margin="5" Click="DeleteUser_Click"/>
+                                        </StackPanel>
+                                    </DataTemplate>
+                                </DataGridTemplateColumn.CellTemplate>
+                            </DataGridTemplateColumn>
+                        </DataGrid.Columns>
+                    </DataGrid>
 
+                   
                 </StackPanel>
-
-                <!-- Buttons Section -->
-                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Top" Grid.Row="1" >
-                        <!-- Add User Button -->
-                        <Button Content="Add User" Width="100" Height="40" Margin="0,110,20,0" Background="#bc6c25" Foreground="White" FontWeight="Bold" FontSize="16"/>
-
-                        <!-- Delete User Button -->
-                        <Button Content="Delete User" Width="100" Height="40" Margin="0,110,20,0" Background="#bc6c25" Foreground="White" FontWeight="Bold" FontSize="16"/>
-
-                        <!-- Update User Button -->
-                        <Button Content="Update User" Width="100" Height="40" Margin="0,110,20,0" Background="#bc6c25" Foreground="White" FontWeight="Bold" FontSize="16"/>
-                    </StackPanel>
-                </Grid>
-            
-
+            </Grid>
         </DockPanel>
     </Grid>
 </Window>
-

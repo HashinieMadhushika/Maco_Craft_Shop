@@ -31,7 +31,7 @@ const Signup = () => {
     }
   };
 
-  return (
+return (
     <div className="background">
       <Header />
 

@@ -54,6 +54,10 @@
             <TextBlock Text="Enter your password : " FontSize="18" Margin="0,0,0,0" />
                 <PasswordBox x:Name="pwdPassword" FontSize="18" Margin="0,0,0,10" />
 
+                <RadioButton x:Name="rbAdmin" Content="Admin" GroupName="UserType" FontSize="24" />
+                <RadioButton x:Name="rbUser" Content="User" GroupName="UserType" IsChecked="True" FontSize="24" />
+
+
                 <Button x:Name="btnLogin" Content="Login" FontSize="18" Width="100" Margin="0,20,0,10" Click="btnLogin_Click" Background="#bc6c25" />
 
             <TextBlock Text="Don't have an account?" FontSize="18"  Margin="0,0,0,0" />

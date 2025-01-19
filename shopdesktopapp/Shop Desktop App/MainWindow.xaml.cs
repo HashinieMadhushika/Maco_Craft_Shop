@@ -1,4 +1,5 @@
-﻿using System.Text;
+﻿using System.Data;
+using System.Text;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
@@ -27,8 +28,37 @@ namespace Shop_Desktop_App
         public void btnLogin_Click(object sender, RoutedEventArgs e)
         {
 
-            HomePage homePage = new HomePage();
-            homePage.Show();
+                string email = txtEmail.Text;
+                string password = pwdPassword.Password;
+
+                var user = HomePage.Users.FirstOrDefault(u => u.Name.Equals(email, StringComparison.OrdinalIgnoreCase));
+
+                if (user != null &&   password == user.Password)
+                {
+                    // Determine role based on radio button
+                    // Determine role based on radio button
+                    string role = rbAdmin.IsChecked == true ? "Admin" : "User";
+
+
+                    if (role != user.Role)
+                    {
+                        MessageBox.Show("Incorrect role selected.", "Login Failed", MessageBoxButton.OK, MessageBoxImage.Error);
+                        return;
+                    }
+
+                    MessageBox.Show($"Welcome {user.Name}!", "Login Successful", MessageBoxButton.OK, MessageBoxImage.Information);
+
+                    // Update user status to indicate login
+                    user.Status = "Active";
+
+                    HomePage homePage = new HomePage();
+                    homePage.Show();
+                    Close();
+                }
+                else
+                {
+                    MessageBox.Show("Invalid email, phone number, or password.", "Login Failed", MessageBoxButton.OK, MessageBoxImage.Error);
+                }
 
         }
 
