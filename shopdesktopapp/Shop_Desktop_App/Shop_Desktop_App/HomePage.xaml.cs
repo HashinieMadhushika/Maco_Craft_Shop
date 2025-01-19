@@ -23,7 +23,7 @@ namespace Shop_Desktop_App
         private void AddUser_Click(object sender, RoutedEventArgs e)
         {
             UserTable.CommitEdit(DataGridEditingUnit.Row, true);
-            Users.Add(new User { Name = "New User", Role = "User", Status = "Only Signup", PhoneNumber = "N/A", Password = "default" });
+            Users.Add(new User { Email = "New User", Role = "User", Status = "Only Signup", PhoneNumber = "N/A", Password = "default" });
         }
 
         private void UpdateUser_Click(object sender, RoutedEventArgs e)
@@ -32,7 +32,7 @@ namespace Shop_Desktop_App
 
             if (UserTable.SelectedItem is User selectedUser)
             {
-                selectedUser.Name = "Updated User"; // Example modification
+                selectedUser.Email = "Updated User"; // Example modification
             }
             else
             {
@@ -57,7 +57,7 @@ namespace Shop_Desktop_App
 
     public class User
     {
-        public string Name { get; set; }
+        public string Email { get; set; }
         public string Role { get; set; }
         public string Status { get; set; }
         public string PhoneNumber { get; set; }

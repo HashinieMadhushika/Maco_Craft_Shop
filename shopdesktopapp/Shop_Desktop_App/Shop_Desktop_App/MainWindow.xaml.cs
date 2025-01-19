@@ -10,6 +10,8 @@ using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
 using Shop_Desktop_App;
+using Shop_Desktop_App.Data;
+
 
 
 namespace Shop_Desktop_App

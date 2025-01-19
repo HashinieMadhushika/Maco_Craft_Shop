@@ -12,6 +12,9 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Shop_Desktop_App.Data;
+using MySql.Data.MySqlClient;
+
 
 namespace Shop_Desktop_App
 {
@@ -83,6 +86,23 @@ namespace Shop_Desktop_App
             }
 
             return true;
+        }
+
+        private void btnTestConnection_Click(object sender, RoutedEventArgs e)
+        {
+            try
+            {
+                using (var dbContext = new ShopDbContext())
+                {
+                    // Test database connection by executing a simple query
+                    var usersCount = dbContext.Users.Count(); // Counts the number of rows in the Users table
+                    MessageBox.Show($"Database connected successfully! Total users: {usersCount}", "Success");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Database connection failed: {ex.Message}", "Error", MessageBoxButton.OK, MessageBoxImage.Error);
+            }
         }
 
     }
