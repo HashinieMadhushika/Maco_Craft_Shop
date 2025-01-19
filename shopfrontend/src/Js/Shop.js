@@ -36,9 +36,6 @@ import bq5 from "../Images/Bouq-05.jpg";
 import { Link } from 'react-router-dom'; 
 
 const ShopNow = () => {
-
-
-
   const menuItems = [
     /*Frocks Section */
     {
