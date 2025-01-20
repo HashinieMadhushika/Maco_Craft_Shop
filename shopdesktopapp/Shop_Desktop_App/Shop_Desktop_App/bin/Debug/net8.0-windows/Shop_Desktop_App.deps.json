@@ -10,6 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.1",
           "Microsoft.EntityFrameworkCore.Tools": "9.0.1",
+          "MySql.Data": "9.1.0",
           "MySql.EntityFrameworkCore": "8.0.8"
         },
         "runtime": {

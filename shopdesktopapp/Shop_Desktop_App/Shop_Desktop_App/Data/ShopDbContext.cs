@@ -1,4 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
+using MySql.Data;
+using MySql.EntityFrameworkCore.Extensions;
+
 
 namespace Shop_Desktop_App.Data
 {
@@ -17,10 +20,11 @@ namespace Shop_Desktop_App.Data
             if (!optionsBuilder.IsConfigured)
             {
                 // Specify your connection string here
-                 optionsBuilder.UseMySQL("Server=localhost;" +
-                     "Database=signup_desktop;" +
-                     "User=root;" +
-                     "Password=Hashi@1234;");
+                optionsBuilder.UseMySQL("Server=localhost;" +
+                    "Database=signup_desktop;" +
+                    "User=root;" +
+                    "Password=Hashi@1234;"
+                    );
 
             }
         }

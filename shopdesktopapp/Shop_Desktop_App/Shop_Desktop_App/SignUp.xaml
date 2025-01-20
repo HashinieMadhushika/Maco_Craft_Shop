@@ -55,8 +55,7 @@
                 <TextBox x:Name="pnPhoneNumber"  FontSize="18" Margin="0,0,60,10" />
 
                 <Button Content="Sign Up" Width="100" Click="btnSignUp_Click" Background="#bc6c25" Foreground="White" FontSize="24"/>
-               
-                <Button Content="Test Database Connection" Click="btnTestConnection_Click" />
+
 
             </StackPanel>
         </Border>
