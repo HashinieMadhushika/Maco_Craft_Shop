@@ -1,0 +1,21 @@
+.packages-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f8f8f8;
+    font-family: 'Arial, sans-serif';
+  }
+
+  .packages-image {
+    flex: 1;
+    text-align: center;
+  }
+  
+  .packages-container img {
+    max-width: 70%;
+    border-radius: 100px;
+  }
+
+
+  
